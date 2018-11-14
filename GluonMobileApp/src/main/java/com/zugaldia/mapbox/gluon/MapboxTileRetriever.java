@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 /*
  * Heavily inspired by: https://github.com/gluonhq/maps/blob/master/src/main/java/com/gluonhq/impl/maps/tile/osm/OsmTileRetriever.java
- * We should implement caching like: https://github.com/gluonhq/maps/blob/master/src/main/java/com/gluonhq/impl/maps/tile/osm/CachedOsmTileRetriever.java
+ * and: https://github.com/gluonhq/maps/blob/master/src/main/java/com/gluonhq/impl/maps/tile/osm/CachedOsmTileRetriever.java
  */
 public class MapboxTileRetriever implements TileRetriever {
 
