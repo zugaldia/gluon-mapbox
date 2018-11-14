@@ -16,7 +16,6 @@ public class GluonApplication extends MobileApplication {
     @Override
     public void postInit(Scene scene) {
         Swatch.BLUE.assignTo(scene);
-
         ((Stage) scene.getWindow()).getIcons().add(new Image(GluonApplication.class.getResourceAsStream("/icon.png")));
     }
 }
